@@ -12,4 +12,4 @@ class Solution:
         shifted = z - maxZ
         exps = np.exp(shifted)
         return np.round(exps / np.sum(exps), 4)
-        pass
+        
